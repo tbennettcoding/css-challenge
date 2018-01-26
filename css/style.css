@@ -62,6 +62,11 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+h1, em {
+	color: limegreen;
+	display: inline-block;
+}
+
 header {
-	background-color: gray();
+	background-color: black;
 }
