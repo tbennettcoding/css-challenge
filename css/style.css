@@ -61,3 +61,7 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+header {
+	background-color: gray();
+}
