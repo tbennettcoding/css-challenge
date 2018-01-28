@@ -79,6 +79,12 @@ img[alt*="welcome to my homepage"] {
 	margin: 60px auto;
 }
 
+.form-wrapper {
+	color: limegreen;
+	background-color: green;
+	padding: 30px;
+}
+
 /**
  * Styling for footer
  */
