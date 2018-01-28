@@ -98,6 +98,15 @@ img[alt*="captain janeway"] {
 /**
  * about me
  */
+
+.about-me {
+	color: #F7FFFF;
+	background-color: #0000FF;
+	position: relative;
+	padding: 3em;
+}
+
+
 img[alt*="captain picard"] {
 	float: left;
 	display: inline;
@@ -107,6 +116,7 @@ img[alt*="captain picard"] {
 	margin-right: 20px;
 }
 
+
 .about-me h2 {
 	display: inline;
 }
@@ -115,11 +125,7 @@ img[alt*="captain picard"] {
 	color: #FFFF00;
 }
 
-.about-me {
-	color: #F7FFFF;
-	background-color: #0000FF;
-	padding: 60px;
-}
+
 
 
 /**
@@ -139,6 +145,10 @@ th, td {
 	background-color: #444;
 }
 
+
+section:nth-child(4) h2 {
+	text-align: right;
+}
 
 /*
  * styling the form
