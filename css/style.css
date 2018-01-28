@@ -85,10 +85,26 @@ img[alt*="welcome to my homepage"] {
 	padding: 30px;
 }
 
+.form-wrapper button {
+	color: #000700;
+	background-color: #00FF00;
+	font-weight: bold;
+	border: none;
+	margin-top: 1em;
+	width: 6.5em;
+	height: 2em;
+}
+
 .form-wrapper input, label, textarea {
 	display: block;
 	margin-top: .5em;
+
 }
+
+.form-wrapper input, textarea {
+	width: 25%;
+}
+
 
 /**
  * Styling for footer
