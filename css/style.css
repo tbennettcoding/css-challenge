@@ -74,3 +74,18 @@ header {
 	padding: 1em;
 }
 
+img[alt*="welcome to my homepage"] {
+	display: block;
+	margin: 60px auto;
+}
+
+/**
+ * Styling for footer
+ */
+footer {
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 1em;
+	text-align: center;
+}
