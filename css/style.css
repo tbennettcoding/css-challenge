@@ -102,9 +102,8 @@ img[alt*="captain picard"] {
 	float: left;
 	display: inline;
 	vertical-align: middle;
-	background-color: #fff;
+	background-color: #0000FF;
 	max-height: 250px;
-	padding: .25vw;
 	margin-right: 20px;
 }
 
@@ -113,15 +112,33 @@ img[alt*="captain picard"] {
 }
 
 .about-me span {
-	color: rgb(251, 241, 55);
-	text-shadow: #000;
+	color: #FFFF00;
 }
 
 .about-me {
-	color: #fff;
-	background-color: rgb(0, 0, 255);
+	color: #F7FFFF;
+	background-color: #0000FF;
 	padding: 60px;
 }
+
+
+/**
+ * Table
+ */
+
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+th, td {
+	padding: 1em;
+	color: rgb(0, 255, 0);
+	border: solid .1rem #fff;
+	text-align: left;
+	background-color: #444;
+}
+
 
 /*
  * styling the form
