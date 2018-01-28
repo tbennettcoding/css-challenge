@@ -79,6 +79,28 @@ img[alt*="welcome to my homepage"] {
 	margin: 60px auto;
 }
 
+/**
+ * Instructions
+ */
+.instructions-wrapper {
+	display: flex;
+	border: solid .25em #000;
+	margin: 1em auto;
+}
+
+img[alt*="captain janeway"] {
+	flex: auto;
+	max-height: 200px;
+	max-width: 300px;
+	margin: auto;
+}
+
+
+
+
+/*
+ * styling the form
+ */
 .form-wrapper {
 	color: #00FF00;
 	background-color: #006400;
