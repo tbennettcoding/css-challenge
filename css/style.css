@@ -65,8 +65,12 @@ body { width: 100%;}
 h1, em {
 	color: limegreen;
 	display: inline-block;
+	margin-right: 1em;
 }
 
 header {
+	width: 100%;
 	background-color: black;
+	padding: 1em;
 }
+
