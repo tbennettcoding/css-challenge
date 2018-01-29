@@ -138,11 +138,12 @@ table {
 }
 
 th, td {
-	padding: 1em;
+	padding: .1em;
 	color: rgb(0, 255, 0);
-	border: solid .1rem #fff;
+	border: solid .1em #fff;
 	text-align: left;
 	background-color: #444;
+	position: relative;
 }
 
 
