@@ -76,7 +76,7 @@ header {
 
 img[alt*="welcome to my homepage"] {
 	display: block;
-	margin: 60px auto;
+	margin: 5em auto 5em auto;
 }
 
 /**
@@ -92,7 +92,7 @@ img[alt*="captain janeway"] {
 	flex: auto;
 	max-height: 200px;
 	max-width: 300px;
-	margin: auto;
+	margin: 1em 1em 1em auto;
 }
 
 /**
